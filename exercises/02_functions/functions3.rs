@@ -5,6 +5,6 @@ fn call_me(num: u8) {
 }
 
 fn main() {
-    // DONE: Fix the function call.
-    call_me(7);
+    // TODO: Fix the function call.
+    call_me();
 }

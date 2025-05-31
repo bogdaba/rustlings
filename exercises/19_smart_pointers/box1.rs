@@ -9,21 +9,21 @@
 // item in a cons list contains two elements: The value of the current item and
 // the next item. The last item is a value called `Nil`.
 
-// DONE: Use a `Box` in the enum definition to make the code compile.
+// TODO: Use a `Box` in the enum definition to make the code compile.
 #[derive(PartialEq, Debug)]
 enum List {
-    Cons(i32, Box<List>),
+    Cons(i32, List),
     Nil,
 }
-use crate::List::{Cons, Nil};
-// DONE: Create an empty cons list.
+
+// TODO: Create an empty cons list.
 fn create_empty_list() -> List {
-    Nil
+    todo!()
 }
 
-// DONE: Create a non-empty cons list.
+// TODO: Create a non-empty cons list.
 fn create_non_empty_list() -> List {
-    Cons(1, Box::new(Nil))
+    todo!()
 }
 
 fn main() {
